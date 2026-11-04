@@ -12,12 +12,9 @@
 <body>
     <header>
         <h1>Accessibility Portfolio</h1>
-        <nav>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-        </nav>
     </header>
     <main>
+        <!-- CSS RESET SECTION -->
         <section>
             <h2>CSS Reset</h2>
             <p>
@@ -31,26 +28,109 @@
             </ul>
         </section>
 
+        <!-- DESIGN TOKENS SECTION -->
         <section>
-            <h2>Section 2</h2>
+            <h2>Design Tokens</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
+                Here's the tokens I am using to define colors, type, size and spacing rules.
             </p>
+
+            <!-- IF TIME, ADD ARIA LABELS!!!! -->
+
+            <!-- Raw tokens table -->
+            <table>
+                <caption>Raw tokens</caption>
+                <thead>
+                    <tr>
+                        <th>Colors</th>
+                        <th>Spacing/Size</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Color 1</td>
+                        <td>Spacing 1</td>
+                    </tr>
+                    <tr>
+                        <td>Color 2</td>
+                        <td>Spacing 2</td>
+                    </tr>
+                    <tr>
+                        <td>Color 3</td>
+                        <td>Spacing 3</td>
+                    </tr>
+                    <tr>
+                        <td>Color 4</td>
+                        <td>Spacing 4</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Semantic tokens table -->
+            <table>
+                <caption>Semantic Tokens</caption>
+                <thead>
+                    <tr>
+                        <th>Colors</th>
+                        <th>Spacing/Size</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Color 1</td>
+                        <td>Spacing 1</td>
+                    </tr>
+                    <tr>
+                        <td>Color 2</td>
+                        <td>Spacing 2</td>
+                    </tr>
+                    <tr>
+                        <td>Color 3</td>
+                        <td>Spacing 3</td>
+                    </tr>
+                    <tr>
+                        <td>Color 4</td>
+                        <td>Spacing 4</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
+        <!-- TYPOGRAPHY SECTION -->
         <section>
-            <h2>Section 3</h2>
+            <h2>Typography</h2>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
+                Typography used for different elements used in this section, including: headings, paragraphs, list,
+                inline code, links.
             </p>
+
+            <h3>WCAG Checklist</h3>
+            <p>Create content that can be presented in different ways (for example simpler layout) without losing
+                information or structure.</p>
+
+            <div>
+                <h4>1.3.1 Info and Relationships</h4>
+
+                <ul>
+                    <li>Semantic markup is appropriately used to designate headings, regions/landmarks, lists,
+                        emphasized or special text, etc.</li>
+                    <li>Tables are used for tabular data and data cells are associated with their headers. Data table
+                        captions, if present, are associated to data tables.</li>
+                    <li>Text labels are associated with form inputs. Related form controls are grouped with
+                        fieldset/legend. ARIA labelling may be used when standard HTML is insufficient.</li>
+                </ul>
+            </div>
+            <div>
+                <h4>2.5.3 Label in Name</h4>
+
+                <p>If an interface component (link, button, etc.) presents text (or images of text), the accessible name
+                    (<code>label, alt-text, aria-label</code>, etc.) for that component must include the visible text.</p>
+            <small>Source: <a
+                        href="https://webaim.org/standards/wcag/checklist">https://webaim.org/standards/wcag/checklist</a></small>
+                </div>
+
+            <h3>Fallback Plan</h3>
+            <p>Fallback plan here!!!</p>
         </section>
     </main>
 </body>
