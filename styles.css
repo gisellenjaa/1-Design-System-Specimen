@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    /* Layout widths consistency */
+    box-sizing: border-box;
+}
+
+body {
+    /* Removing edges */
+    margin: 0;
+}
+
+/* Making the focus more visible */
+*:focus-visible {
+    outline: 4px solid blue;
+}
+
+/* Fixing form elements to match desired style */
+input,
+button {
+    font: inherit;
+}
